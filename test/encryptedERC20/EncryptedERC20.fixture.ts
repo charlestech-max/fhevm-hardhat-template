@@ -9,4 +9,4 @@ export async function deployEncryptedERC20Fixture(): Promise<EncryptedERC20> {
   await contract.waitForDeployment();
 
   return contract;
-}
+}
