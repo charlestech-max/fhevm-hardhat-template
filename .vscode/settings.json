@@ -3,4 +3,4 @@
   "editor.formatOnSave": true,
   "prettier.documentSelectors": ["**/*.sol"],
   "solidity.formatter": "prettier"
-}
+}
