@@ -175,4 +175,4 @@ describe("EncryptedERC20", function () {
     const balanceBob2 = await decrypt64(balanceHandleBob2);
     expect(balanceBob2).to.equal(1337); // check that transfer did happen this time
   });
-});
+});
