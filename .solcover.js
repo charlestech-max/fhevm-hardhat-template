@@ -8,4 +8,4 @@ module.exports = {
     fgrep: "[skip-on-coverage]",
     invert: true,
   },
-};
+};
