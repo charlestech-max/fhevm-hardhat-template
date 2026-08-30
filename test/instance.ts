@@ -130,4 +130,4 @@ export const decryptAddress = async (handle: bigint): Promise<string> => {
   } else {
     return getDecryptor().decryptAddress(await getCiphertext(handle, ethers));
   }
-};
+};
