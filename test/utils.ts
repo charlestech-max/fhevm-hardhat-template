@@ -94,4 +94,4 @@ export const mineNBlocks = async (n: number) => {
 export const bigIntToBytes = (value: bigint) => {
   const byteArrayLength = Math.ceil(value.toString(2).length / 8);
   return new Uint8Array(toBufferLE(value, byteArrayLength));
-};
+};
